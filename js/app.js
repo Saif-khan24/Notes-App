@@ -8,8 +8,9 @@ addBtn.addEventListener("click", function(e) {
     let addTitle = document.getElementById("addTitle");  //upd
     let notes = localStorage.getItem("notes");
     if (notes == null) {
-      notesObj = [];
+      notesObj = [];  
     } else {
+    //   notesObj = JSON.parse(notes);
       notesObj = JSON.parse(notes);
     }
 

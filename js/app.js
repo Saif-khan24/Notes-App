@@ -87,3 +87,31 @@ search.addEventListener('input', function(){
         }
     });
 });
+
+
+
+//do notice these errors next time
+// let search = document.getElementById('searchTxt');
+// search.addEventListener('input', function(){
+
+//     let inputVal = search.value.toLowerCase();
+//     let noteCards = document.getElementsByClassName('noteCard');
+//     Array.from(noteCards).forEach(function(element){
+//         let cardTxt = element.getElementsByTagName('p').innerText;
+//         if(cardTxt(inputVal)){
+//             element.style.display = 'block';
+//         }
+//     });
+// });
+// let search = document.getElementById('searchTxt');
+// search.addEventListener('input', function(){
+
+//     let inputVal = search();
+//     let noteCards = document.getElementsByClassName('noteCard');
+//     Array.from(noteCards).forEach(function(element){
+//         let cardTxt = element.getElementsByTagName('p')[0].innerText;
+//         if(cardTxt.includes(inputVal)){
+//             element.style.display = 'none';
+//         }
+//     });
+// });
